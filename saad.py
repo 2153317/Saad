@@ -84,7 +84,7 @@ logo = ("""\033[1;32m
  |_____/ \__,_|\__,_|\__,_|
                                                                                                 
 ╔═════════════════════════════════════════════╗
-║  [+] AUTHOR   : SAADI X SHAMU  😘      ║
+║  [+] AUTHOR   : SAADII 😘      ║
 ║  [+] WHATSAPP : NAHI HA😜              ║
 ║  [+] TEAM     : LAPTA TEAM    ║
 ║  [+] IDS    :  ZUKU DI BHEN NU MUUUAH   ║
